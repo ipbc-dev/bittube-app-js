@@ -41,22 +41,22 @@ const doNotCopyOrEnterFilepathsMatching =
 	/^\.eslint/,
 	/\.electron\.(.*)\.?(js|html|css)$/, // e.g. electron.js, electron.renderer.js, electron.child.js
 	/^electron_/,
-	/mymonero-core-js\/build/, // obviously do not want anything within this
-	/mymonero-core-js\/node_modules/, // all of these are dev dependencies, so we don't want them
-	/mymonero_libapp_js\/build/, // obviously do not want anything within this
-	/mymonero_libapp_js\/node_modules/, // all of these are dev dependencies, so we don't want them
-	/mymonero_libapp_js\/tests/,
-	/mymonero_libapp_js\/src/,
-	/mymonero-core-js\/index\.js/,
+	/bittube-core-js\/build/, // obviously do not want anything within this
+	/bittube-core-js\/node_modules/, // all of these are dev dependencies, so we don't want them
+	/bittube_libapp_js\/build/, // obviously do not want anything within this
+	/bittube_libapp_js\/node_modules/, // all of these are dev dependencies, so we don't want them
+	/bittube_libapp_js\/tests/,
+	/bittube_libapp_js\/src/,
+	/bittube-core-js\/index\.js/,
 	/MyMoneroCoreCpp_ASMJS\.js/,
 	/MyMoneroCoreCpp_ASMJS\.asm\.js/,
 	/MyMoneroCoreCpp_WASM\.js/,
 	/MyMoneroCoreCpp_WASM\.wasm/,
 	/MyMoneroCoreBridge\.js/,
 	/MyMoneroCoreBridgeClass\.js/,
-	/mymonero-core-js\/tests/,
-	/mymonero-core-js\/wallaby/,
-	/mymonero-core-js\/src/,
+	/bittube-core-js\/tests/,
+	/bittube-core-js\/wallaby/,
+	/bittube-core-js\/src/,
 	/node_modules\/electron/, // no reason we'd want this
 	/LICENSE\.txt/,
 	/README\.md/,

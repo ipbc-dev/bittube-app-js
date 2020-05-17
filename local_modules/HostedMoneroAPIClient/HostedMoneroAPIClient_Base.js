@@ -30,9 +30,9 @@
 //
 const async = require('async')
 //
-const JSBigInt = require('../mymonero_libapp_js/mymonero-core-js/cryptonote_utils/biginteger').BigInteger // important: grab defined export
-const monero_config = require('../mymonero_libapp_js/mymonero-core-js/monero_utils/monero_config')
-const net_service_utils = require('../mymonero_libapp_js/mymonero-core-js/hostAPI/net_service_utils')
+const JSBigInt = require('../bittube_libapp_js/bittube-core-js/cryptonote_utils/biginteger').BigInteger // important: grab defined export
+const monero_config = require('../bittube_libapp_js/bittube-core-js/monero_utils/monero_config')
+const net_service_utils = require('../bittube_libapp_js/bittube-core-js/hostAPI/net_service_utils')
 //
 const config__MyMonero = require('./config__MyMonero')
 //

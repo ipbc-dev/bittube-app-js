@@ -92,8 +92,8 @@ module.exports =
 						/MyMoneroCoreBridgeClass\.js/
 					],
 					exclude: [
-						path.resolve(__dirname, 'mymonero-core-js/tests'),
-						path.resolve(__dirname, 'mymonero_libapp_js/tests'),
+						path.resolve(__dirname, 'bittube-core-js/tests'),
+						path.resolve(__dirname, 'bittube_libapp_js/tests'),
 					]
 				},
 				use: [

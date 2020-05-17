@@ -28,7 +28,7 @@
 //
 //
 const persistable_object_utils = require('../../DocumentPersister/persistable_object_utils')
-const JSBigInt = require('../../mymonero_libapp_js/mymonero-core-js/cryptonote_utils/biginteger').BigInteger
+const JSBigInt = require('../../bittube_libapp_js/bittube-core-js/cryptonote_utils/biginteger').BigInteger
 //
 const CollectionName = "Wallets"
 exports.CollectionName = CollectionName

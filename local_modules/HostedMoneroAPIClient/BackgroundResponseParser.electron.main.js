@@ -30,8 +30,8 @@
 //
 const { ipcMain } = require('electron')
 //
-const response_parser_utils = require('../mymonero_libapp_js/mymonero-core-js/hostAPI/response_parser_utils')
-const monero_keyImage_cache_utils = require('../mymonero_libapp_js/mymonero-core-js/monero_utils/monero_keyImage_cache_utils')
+const response_parser_utils = require('../bittube_libapp_js/bittube-core-js/hostAPI/response_parser_utils')
+const monero_keyImage_cache_utils = require('../bittube_libapp_js/bittube-core-js/monero_utils/monero_keyImage_cache_utils')
 const coreBridgeLoading_promise = require('../MoneroUtils/MyMoneroLibAppBridge_Singleton.electron')
 //
 class BackgroundResponseParser
